@@ -24,10 +24,10 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    min-width: 375px;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    min-width: 375px;
     background-color: var(--darkCyan);
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
     background-position: left -750px top -600px, right -750px bottom -600px;
@@ -57,7 +57,6 @@ div.banner {
     flex-basis: 150px;
     width: 100%;
     border-radius: 15px 15px 0 0;
-
 }
 
 img.avatar {
@@ -70,11 +69,11 @@ img.avatar {
 }
 
 div.card {
-    background-color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: var(--white);
     border-radius: 0 0 15px 15px;
 }
 
