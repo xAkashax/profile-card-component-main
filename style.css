@@ -30,8 +30,7 @@ body {
     justify-content: center;
     background-color: var(--darkCyan);
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
-    background-position: left -800px top -550px, right -800px bottom -550px;
-    background-attachment: fixed;
+    background-position: left -750px top -600px, right -750px bottom -600px;
     background-repeat: no-repeat, no-repeat;
 }
 
@@ -125,7 +124,6 @@ div.numbers ul li:nth-child(even) {
     color: var(--darkGrayishBlue);
 }
 
-
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -134,4 +132,17 @@ div.numbers ul li:nth-child(even) {
 .attribution a {
     font-size: 11px;
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1025px) {
+    body {
+        min-width: 1440px;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--darkCyan);
+        background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+        background-position: left -200px top -500px, right -200px bottom -500px;
+        background-attachment: fixed;
+        background-repeat: no-repeat, no-repeat;
+    }
 }
